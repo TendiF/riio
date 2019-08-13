@@ -1,0 +1,145 @@
+button{
+    padding: 8px 15px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.primary{
+    background:#3498db;
+}
+input[type=text], input[type=email] {
+    position: relative;
+    display: block;
+    width: 100%;
+    line-height: 28px;
+    color: #888888;
+    border: 1px solid #dddddd;
+    height: 50px;
+    font-size: 14px;
+    /* border-radius: 50px; */
+    background: #ffffff;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.header{
+    margin:5vw;
+}
+.header > div > a {
+    margin:10px;
+}
+a{
+    text-decoration: none;
+}
+.header > div {
+    display: inline-block;
+}
+.header > div:nth-child(3) {
+    float: right;
+}
+.header > div:nth-child(2) {
+    margin-left:200px;
+}
+.header > div:nth-child(1) {
+    position: absolute;
+    top:0;
+    left:0;
+}
+h1 {
+    margin: 0px;
+}
+.home{
+    margin-top:100px;
+}
+.home > div{
+    max-width: 35vw;
+    display: inline-block;
+    margin:6vw;
+}
+.home > div:nth-child(1) > div {
+    margin-top:70px;
+}
+.home > div > div > .select {
+    width: 20vw;
+    margin-right:20px;
+}
+.home > div > div > * {
+    display: inline-block;
+}
+.home > div:nth-child(1) {
+    position: relative;
+    bottom:8vw;
+}
+
+.home > div:nth-child(2) > img {
+    max-height: 25vw;
+}
+
+.destination, .register, .contact{
+    width: 65vw;
+    margin:auto;
+    margin-top:80px;
+}
+.dest-info > div{
+    display:inline-block;
+    width:50%;
+    text-align: right;
+}
+
+.destination > button, .destination > a > button ,.register > button{
+    width:100%;
+    margin:10px;
+    padding: 12px 18px;
+}
+
+.destination > button:first-of-type,
+.register > button,
+.contact > button,
+.contact > a > button{
+    margin-top: 30px;
+}
+.register > div:nth-child(1){
+    text-align: center;
+}
+.register > div:nth-child(2),
+.register > div:nth-child(3),
+.contact > div:nth-child(3),
+.contact > div:nth-child(4),
+.contact > div:nth-child(7),
+.contact > div:nth-child(8),
+.register > div:nth-child(5),
+.register > div:nth-child(6) {
+    width: 48%;
+    display: inline-block;
+}
+.contact > div:nth-child(4),
+.contact > div:nth-child(8),
+.register > div:nth-child(2),
+.register > div:nth-child(6) {
+    float: right;
+}
+.contact > button,
+.contact > a > button {
+    float:right;
+    margin-left:15px;
+    padding: 12px 18px;
+}
+.breadcrumb{
+    margin:auto;
+    width: max-content;
+}
+.breadcrumb > div{
+    display: inline-block;
+}
+.breadcrumb > div > div {
+    display: inline-block;
+    margin-left: 15px;
+}
+.breadcrumb > div > div > svg{
+    position: relative;
+    top:3px;
+}
